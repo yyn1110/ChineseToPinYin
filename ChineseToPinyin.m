@@ -5852,6 +5852,8 @@ char pinyinFirstLetter(unsigned short hanzi)
             nCode = (ucHigh - 0xa0) * 100 + ucLow - 0xa0;
 		
 		NSString * strRes = FindLetter( nCode );
+            //拼音首字条大写
+        strRes = [strRes capitalizedString];
 		strValue = [strValue stringByAppendingString:strRes];
 
         i++;
