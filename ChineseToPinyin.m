@@ -5827,6 +5827,7 @@ char pinyinFirstLetter(unsigned short hanzi)
 + (NSString *) pinyinFromChiniseString:(NSString *)string
 {
 	if( !string || ![string length] ) return nil;
+    NSLog(@"pinyinFromChiniseString %@", string);
 	
 	NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding( kCFStringEncodingGB_18030_2000);
 	NSData * gb2312_data = [string dataUsingEncoding:enc];
@@ -5846,13 +5847,20 @@ char pinyinFirstLetter(unsigned short hanzi)
 		
         ucHigh = (unsigned char)gb2312_string[i];
         ucLow  = (unsigned char)gb2312_string[i+1];
+        NSLog(@"ucHigh %u %x; ucLow %u %x", ucHigh, ucHigh, ucLow, ucLow);
+        
         if ( ucHigh < 0xa1 || ucLow < 0xa1)
             continue;
         else
             nCode = (ucHigh - 0xa0) * 100 + ucLow - 0xa0;
 		
+        NSLog(@"nCode %u", nCode); //ncode是汉字的拼音索引
+        /* comment by willonboy
+         "沈"
+         ucHigh 201 c9; ucLow 242 f2  //c9f2是gb18030的编码
+         nCode 4182 //"沈"字的汉字在gb18030代码表中的区号(41)与位号(82) 详见:GB2312-1980信息交换用汉字编码字符集基本集(臧韦书签版).pdf 第10页~33页
+         */
 		NSString * strRes = FindLetter( nCode );
-            //拼音首字条大写
         strRes = [strRes capitalizedString];
 		strValue = [strValue stringByAppendingString:strRes];
 
