@@ -4587,7 +4587,7 @@ NSString* FindLetter(int nCode)
 			}
 			if(nCode==3593)
 			{
-				strValue== @"MIU";
+				strValue= @"MIU";
 				break;
 			}
 			if(nCode>=3594 && nCode<=3616)
