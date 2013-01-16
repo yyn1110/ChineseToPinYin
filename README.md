@@ -14,3 +14,5 @@ bug list:
 
 汉典网:http://www.zdic.net
 手机汉典:http://www.zdic.net/search/?c=2
+
+百度词典查询:http://dict.baidu.com/s?wd=行
