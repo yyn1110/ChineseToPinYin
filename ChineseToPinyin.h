@@ -14,7 +14,7 @@
  */
 
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 
 @interface ChineseToPinyin : NSObject

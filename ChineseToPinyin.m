@@ -40,8 +40,8 @@ NSString* FindLetter(int nCode)
 		case 8786:
 			strValue= @"AN";
 			break;
-			strValue= @"ANG";
-			break;
+//			strValue= @"ANG";
+//			break;
 		case 5974:
 		case 6254:
 		case 6427:
@@ -221,8 +221,8 @@ NSString* FindLetter(int nCode)
 		case 7769:
 			strValue= @"CA";
 			break;
-			strValue= @"CAI";
-			break;
+//			strValue= @"CAI";
+//			break;
 		case 6978:
 		case 7078:
 		case 7218:
@@ -412,8 +412,8 @@ NSString* FindLetter(int nCode)
 		case 8626:
 			strValue= @"CHUO";
 			break;
-			strValue= @"CI";
-			break;
+//			strValue= @"CI";
+//			break;
 		case 6075:
 		case 6358:
 		case 7684:
@@ -737,8 +737,8 @@ NSString* FindLetter(int nCode)
 		case 7731:
 			strValue= @"FENG";
 			break;
-			strValue= @"FO";
-			break;
+//			strValue= @"FO";
+//			break;
 		case 8330:
 			strValue= @"FOU";
 			break;
@@ -841,8 +841,8 @@ NSString* FindLetter(int nCode)
 		case 8732:
 			strValue= @"GE";
 			break;
-			strValue= @"GEI";
-			break;
+//			strValue= @"GEI";
+//			break;
 		case 5608:
 		case 6102:
 		case 6371:
@@ -907,8 +907,8 @@ NSString* FindLetter(int nCode)
 		case 8027:
 			strValue= @"GUA";
 			break;
-			strValue= @"GUAI";
-			break;
+//			strValue= @"GUAI";
+//			break;
 		case 5736:
 		case 6124:
 		case 6272:
@@ -1007,10 +1007,10 @@ NSString* FindLetter(int nCode)
 		case 8471:
 			strValue= @"HE";
 			break;
-			strValue= @"HEI";
-			break;
-			strValue= @"HEN";
-			break;
+//			strValue= @"HEI";
+//			break;
+//			strValue= @"HEN";
+//			break;
 		case 6231:
 		case 7181:
 		case 7276:
@@ -1624,10 +1624,10 @@ NSString* FindLetter(int nCode)
 		case 8639:
 			strValue= @"LUAN";
 			break;
-			strValue= @"L®µE";
-			break;
-			strValue= @"LUN";
-			break;
+//			strValue= @"L®µE";
+//			break;
+//			strValue= @"LUN";
+//			break;
 		case 5732:
 		case 5789:
 		case 6093:
@@ -1781,8 +1781,8 @@ NSString* FindLetter(int nCode)
 		case 8504:
 			strValue= @"MING";
 			break;
-			strValue= @"MIU";
-			break;
+//			strValue= @"MIU";
+//			break;
 		case 5851:
 		case 6052:
 		case 6175:
@@ -1857,13 +1857,13 @@ NSString* FindLetter(int nCode)
 		case 5811:
 			strValue= @"NE";
 			break;
-			strValue= @"NEI";
-			break;
+//			strValue= @"NEI";
+//			break;
 		case 7705:
 			strValue= @"NEN";
 			break;
-			strValue= @"NENG";
-			break;
+//			strValue= @"NENG";
+//			break;
 		case 5703:
 		case 5972:
 		case 6605:
@@ -1884,8 +1884,8 @@ NSString* FindLetter(int nCode)
 		case 8683:
 			strValue= @"NIAN";
 			break;
-			strValue= @"NIANG";
-			break;
+//			strValue= @"NIANG";
+//			break;
 		case 6064:
 		case 7053:
 		case 7569:
@@ -1900,8 +1900,8 @@ NSString* FindLetter(int nCode)
 		case 8570:
 			strValue= @"NIE";
 			break;
-			strValue= @"NIN";
-			break;
+//			strValue= @"NIN";
+//			break;
 		case 5690:
 		case 6344:
 		case 6924:
@@ -1931,10 +1931,10 @@ NSString* FindLetter(int nCode)
 		case 8412:
 			strValue= @"N®µ";
 			break;
-			strValue= @"NUAN";
-			break;
-			strValue= @"NUE";
-			break;
+//			strValue= @"NUAN";
+//			break;
+//			strValue= @"NUE";
+//			break;
 		case 5748:
 		case 6289:
 		case 6386:
@@ -2288,8 +2288,8 @@ NSString* FindLetter(int nCode)
 		case 7267:
 			strValue= @"RAO";
 			break;
-			strValue= @"RE";
-			break;
+//			strValue= @"RE";
+//			break;
 		case 5680:
 		case 6083:
 		case 6156:
@@ -2299,10 +2299,10 @@ NSString* FindLetter(int nCode)
 		case 8137:
 			strValue= @"REN";
 			break;
-			strValue= @"RENG";
-			break;
-			strValue= @"RI";
-			break;
+//			strValue= @"RENG";
+//			break;
+//			strValue= @"RI";
+//			break;
 		case 6541:
 		case 6585:
 		case 7337:
@@ -2337,8 +2337,8 @@ NSString* FindLetter(int nCode)
 		case 8224:
 			strValue= @"RUI";
 			break;
-			strValue= @"RUN";
-			break;
+//			strValue= @"RUN";
+//			break;
 		case 5728:
 		case 8372:
 			strValue= @"RUO";
@@ -2371,12 +2371,12 @@ NSString* FindLetter(int nCode)
 		case 8694:
 			strValue= @"SAO";
 			break;
-			strValue= @"SE";
-			break;
-			strValue= @"SEN";
-			break;
-			strValue= @"SENG";
-			break;
+//			strValue= @"SE";
+//			break;
+//			strValue= @"SEN";
+//			break;
+//			strValue= @"SENG";
+//			break;
 		case 6394:
 		case 7606:
 		case 7901:
@@ -2494,10 +2494,10 @@ NSString* FindLetter(int nCode)
 		case 7055:
 			strValue= @"SHUANG";
 			break;
-			strValue= @"SHUI";
-			break;
-			strValue= @"SHUN";
-			break;
+//			strValue= @"SHUI";
+//			break;
+//			strValue= @"SHUN";
+//			break;
 		case 6184:
 		case 6287:
 		case 6989:
@@ -2635,8 +2635,8 @@ NSString* FindLetter(int nCode)
 		case 7666:
 			strValue= @"TAO";
 			break;
-			strValue= @"1845 ≤Õ";
-			break;
+//			strValue= @"1845 ≤Õ";
+//			break;
 		case 6315:
 		case 7693:
 		case 7911:
@@ -2739,8 +2739,8 @@ NSString* FindLetter(int nCode)
 		case 7580:
 			strValue= @"WA";
 			break;
-			strValue= @"WAI";
-			break;
+//			strValue= @"WAI";
+//			break;
 		case 5664:
 		case 6025:
 		case 6150:
@@ -3362,8 +3362,8 @@ NSString* FindLetter(int nCode)
 		case 8423:
 			strValue= @"ZE";
 			break;
-			strValue= @"ZEI";
-			break;
+//			strValue= @"ZEI";
+//			break;
 		case 5858:
 			strValue= @"ZEN";
 			break;
@@ -3522,10 +3522,10 @@ NSString* FindLetter(int nCode)
 		case 8770:
 			strValue= @"ZHU";
 			break;
-			strValue= @"ZHUA";
-			break;
-			strValue= @"ZHUAI";
-			break;
+//			strValue= @"ZHUA";
+//			break;
+//			strValue= @"ZHUAI";
+//			break;
 		case 6389:
 		case 6645:
 		case 8207:
@@ -4815,7 +4815,7 @@ NSString* FindLetter(int nCode)
 				strValue= @"QI";
 				break;
 			}
-			if(nCode==3894||nCode>=3901 && nCode<=3902)
+			if(nCode==3894||(nCode>=3901 && nCode<=3902))
 			{
 				strValue= @"QIA";
 				break;
@@ -5835,7 +5835,7 @@ char pinyinFirstLetter(unsigned short hanzi)
     unsigned char ucHigh, ucLow;
     int  nCode;
     NSString * strValue = @"";
-	int iLen = [gb2312_data length];
+	int iLen = (int)[gb2312_data length];
 	char * gb2312_string = ( char *)[gb2312_data bytes];
     for (int i=0; i< iLen; i++)
     {
@@ -5867,7 +5867,7 @@ char pinyinFirstLetter(unsigned short hanzi)
         i++;
     }
 	
-	return [[[NSString alloc] initWithString:strValue] autorelease];	
+	return [[NSString alloc] initWithString:strValue] ;
 }
 
 + (char) sortSectionTitle:(NSString *)string
